@@ -1,0 +1,62 @@
+[
+	{
+		"id": 0,
+		"name": "Action",
+		"imageUrl": "http://cdn.akamai.steamstatic.com/steam/apps/10180/header.jpg?t=1401902187"
+	},
+{
+		"id": 1,
+		"name": "Adventure",
+		"imageUrl": "http://cdn.akamai.steamstatic.com/steam/apps/108710/header.jpg?t=1400785941"
+	},
+	{
+		"id": 2,
+		"name": "Casual",
+		"imageUrl": "http://cdn.akamai.steamstatic.com/steam/apps/265930/header.jpg?t=1405094769"
+	},
+	{
+		"id": 3,
+		"name": "Early Access",
+		"imageUrl": "http://cdn.akamai.steamstatic.com/steam/apps/221100/header.jpg?t=1407239820"
+	},
+	{
+		"id": 4,
+		"name": "Free to Play",
+		"imageUrl": "http://cdn.akamai.steamstatic.com/steam/apps/109600/header.jpg?t=1408033307"
+	},
+	{
+		"id": 5,
+		"name": "Indie",
+		"imageUrl": "http://cdn.akamai.steamstatic.com/steam/apps/4000/header.jpg?t=1403710121"
+	},
+	{
+		"id": 6,
+		"name": "Massively Multiplayer",
+		"imageUrl": "http://cdn.akamai.steamstatic.com/steam/apps/241560/header.jpg?t=1408128154"
+	},
+	{
+		"id": 7,
+		"name": "Racing",
+		"imageUrl": "http://cdn.akamai.steamstatic.com/steam/apps/47870/header.jpg?t=1406133415"
+	},
+	{
+		"id": 8,
+		"name": "RPG",
+		"imageUrl": "http://cdn.akamai.steamstatic.com/steam/apps/230230/header.jpg?t=1407343404"
+	},
+	{
+		"id": 9,
+		"name": "Simulation",
+		"imageUrl": "http://cdn.akamai.steamstatic.com/steam/apps/245620/header.jpg?t=1407851894"
+	},
+	{
+		"id": 10,
+		"name": "Sports",
+		"imageUrl": "http://cdn.akamai.steamstatic.com/steam/apps/250870/header.jpg?t=1407367439"
+	},
+	{
+		"id": 11,
+		"name": "Strategy",
+		"imageUrl": "http://cdn.akamai.steamstatic.com/steam/apps/8930/header.jpg?t=1403556603"
+	}
+]

@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="SteamTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <item name="android:windowBackground">@color/windowBackground</item>
+    </style>
+    <style name="GameSteamTheme" parent="@style/SteamTheme">
+
+    </style>
+
+    <style name="sectionTitle">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="cardStyle">
+        <item name="android:padding">@dimen/activity_vertical_margin</item>
+        <item name="android:background">@android:color/white</item>
+    </style>
+
+</resources>

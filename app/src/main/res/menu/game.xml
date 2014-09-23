@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.aerilys.steamexplorer.activities.GameActivity" >
+    <item android:id="@+id/action_remove_favorite"
+        android:title="@string/remove_from_favorites"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_action_important"
+        android:showAsAction="always" />
+    <item android:id="@+id/action_add_favorite"
+        android:title="@string/add_to_favorites"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_action_not_important"
+        android:showAsAction="always" />
+</menu>
