@@ -1,46 +1,44 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 'android-L'
-    buildToolsVersion "20.0.0"
+    compileSdkVersion 22
+    buildToolsVersion "21.0.2"
 
     defaultConfig {
         applicationId "com.aerilys.steamexplorer"
-        minSdkVersion "L"
-        targetSdkVersion "L"
+        minSdkVersion 21
+        targetSdkVersion 22
         versionCode 1
         versionName "1.0"
     }
     buildTypes {
         release {
-            runProguard false
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
 }
 
-
 apply plugin: 'com.android.application'
 apply plugin: 'android-apt'
-def AAVersion = '3.0.1'
+def AAVersion = '3.2'
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
 
-    compile 'com.android.support:support-v4:20.0.0'
+    compile 'com.android.support:support-v4:22.0.0'
     compile 'com.google.code.gson:gson:2.3'
-    compile 'com.squareup.picasso:picasso:2.3.3'
+    compile 'com.squareup.picasso:picasso:2.5.0'
     compile 'com.squareup.retrofit:retrofit:1.6.1'
-    compile 'com.android.support:cardview-v7:+'
+    compile 'com.android.support:cardview-v7:22.0.0'
 
     apt "org.androidannotations:androidannotations:$AAVersion"
     compile "org.androidannotations:androidannotations-api:$AAVersion"
 }
 
-
 apt {
     arguments {
-        androidManifestFile variant.processResources.manifestFile
+        androidManifestFile variant.outputs[0].processResources.manifestFile
         resourcePackageName 'com.aerilys.steamexplorer'
     }
 }

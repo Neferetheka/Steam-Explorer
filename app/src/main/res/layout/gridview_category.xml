@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/tile_height"
         android:scaleType="centerCrop"
-        android:viewName="gameappImage"
+        android:transitionName="gameappImage"
         android:src="@drawable/action"/>
 
     <TextView

@@ -65,7 +65,7 @@ public class GameActivity extends SteamActivity implements ListenableScrollView.
     protected Drawable mActionBarBackgroundDrawable;
 
     @Override
-    protected void onCreate(Bundle savedInstanceState, PersistableBundle persistentState) {
+    public void onCreate(Bundle savedInstanceState, PersistableBundle persistentState) {
         requestWindowFeature(Window.FEATURE_ACTION_BAR_OVERLAY);
         super.onCreate(savedInstanceState, persistentState);
     }
@@ -142,6 +142,7 @@ public class GameActivity extends SteamActivity implements ListenableScrollView.
         invalidateOptionsMenu();
     }
 
+    /*
     private void displayUsingRevealEffect(View viewToAnimate)
     {
         int cx = (viewToAnimate.getLeft() + viewToAnimate.getRight()) / 2;
@@ -153,6 +154,7 @@ public class GameActivity extends SteamActivity implements ListenableScrollView.
                 ViewAnimationUtils.createCircularReveal(viewToAnimate, cx, cy, 0, finalRadius);
         anim.start();
     }
+    */
 
     /**
      * Create a transparent actionbar which stays transparent.
